@@ -1,3 +1,3 @@
-exports.entry = () => {
+exports = (() => {
 	console.log("entry");
-}
+})();

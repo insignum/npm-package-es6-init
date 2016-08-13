@@ -46,9 +46,9 @@
 
 	"use strict";
 
-	exports.entry = function () {
+	exports = function () {
 		console.log("entry");
-	};
+	}();
 
 /***/ }
 /******/ ]);
